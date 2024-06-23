@@ -77,7 +77,11 @@ function Setupbars({ foodname }: { foodname: string }) {
           {recipes.map((value, i) => (
             <div key={i}>
               <motion.div
-                onClick={() => navigate("/rsteps?id=" + value.recipe_id)}
+                onClick={() => {
+                  document.body.scrollTop = 0;
+                  document.documentElement.scrollTop = 0;
+                  navigate("/rsteps?id=" + value.recipe_id);
+                }}
                 initial={{ opacity: 0, x: -50 }}
                 animate={{ opacity: 1, x: 0 }}
                 transition={{ delay: i * 0.2 }}
