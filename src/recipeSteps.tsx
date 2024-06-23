@@ -48,7 +48,7 @@ function RecipeSteps() {
       setuser(data2.username);
     };
     getrecipe();
-  }, []);
+  }, [search]);
 
   const handleClick = () => {
     const check = getToken();

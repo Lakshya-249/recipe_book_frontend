@@ -31,7 +31,7 @@ function CategoryPage() {
       setrecipes(data);
     };
     getrecipe();
-  }, []);
+  }, [location]);
 
   return (
     <div className="w-full px-[2rem] text-left py-[2rem] max-sm:px-5 space-y-2 text-sm font-semibold">

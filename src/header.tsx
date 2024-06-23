@@ -36,9 +36,7 @@ function Header() {
           <NavLink to="/recipe">
             <p>Recipes</p>
           </NavLink>
-          <NavLink to="/">
-            <p>About us</p>
-          </NavLink>
+          <p className="hover:cursor-pointer">About us</p>
         </div>
         <div className="text-2xl font-[Forte]">Online Kitchen</div>
         <div className="space-x-5 flex items-center text-sm font-semibold">

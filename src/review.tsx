@@ -20,9 +20,8 @@ function Review() {
       setData(data);
     };
     getreview();
-  }, []);
+  }, [search]);
 
-  useEffect(() => {}, []);
   return (
     <div className="w-full text-left space-y-10 py-5 max-sm:px-4">
       <p className="text-4xl text-gray-600 font-black">Reviews</p>
@@ -33,7 +32,7 @@ function Review() {
       ) : (
         ndata.map((value, i) => (
           <div key={i} className="text-lg space-y-2 font-semibold">
-            <p className="text-gray-400">{value.chef}</p>
+            <p className="text-gray-400">User {i}</p>
             <p className="text-sm text-gray-500">{value.comment}</p>
           </div>
         ))
