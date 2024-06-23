@@ -70,7 +70,7 @@ function Setupbars({ foodname }: { foodname: string }) {
           {foodname}
         </p>
         <div
-          className="cont overflow-x-auto space-x-4 flex w-full h-full scrollbar-hide"
+          className="cont overflow-x-auto space-x-4 flex w-full h-full"
           ref={containerRef}
           onScroll={handleScroll}
         >
@@ -81,8 +81,8 @@ function Setupbars({ foodname }: { foodname: string }) {
                 initial={{ opacity: 0, x: -50 }}
                 animate={{ opacity: 1, x: 0 }}
                 transition={{ delay: i * 0.2 }}
-                className="relative z-10 w-[20rem] max-sm:w-full hover:cursor-pointer text-center text-5xl origin-left 
-                h-[20rem] rounded-2xl mb-4 mr-4 overflow-clip bg-gray-200 font-black text-gray-400 text-opacity-55"
+                className="relative z-10 w-[20rem]  hover:cursor-pointer text-center text-5xl origin-left 
+                h-full rounded-2xl mb-4 mr-4 bg-gray-200 font-black text-gray-400 text-opacity-55"
                 whileHover={{ width: "30rem" }}
               >
                 <img

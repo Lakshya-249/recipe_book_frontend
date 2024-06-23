@@ -87,7 +87,7 @@ function SearchTab() {
         </AnimatePresence>
       </div>
       <div
-        className="cont absolute top-[3.1rem] max-sm:top-[4.2rem] rounded-b-xl text-black w-full 
+        className="cont absolute top-[3.1rem] max-sm:top-[3.8rem] rounded-b-xl text-black w-full 
       space-y-2 border-[1px] border-black overflow-y-auto max-h-[10rem] bg-white"
       >
         {searchItem.map((item, i) => (
