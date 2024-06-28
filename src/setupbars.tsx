@@ -98,7 +98,6 @@ function Setupbars({ foodname }: { foodname: string }) {
                   {value.title}
                 </div>
               </motion.div>
-              <p className="h-full">{value.title}</p>
             </div>
           ))}
         </div>
