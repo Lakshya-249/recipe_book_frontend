@@ -38,7 +38,7 @@ function Header2() {
 
   return (
     <div className="sticky top-0 z-30">
-      <div className="max-sm:flex bg-black items-center mb-[1.5px] justify-between hidden w-full max-sm:px-3.5 h-[4.7rem]">
+      <div className="max-sm:flex bg-black items-center mb-[1.5px] justify-between hidden w-full max-sm:px-3.5 h-[4rem]">
         <div className="flex items-center space-x-5">
           <div className="">
             <FontAwesomeIcon
