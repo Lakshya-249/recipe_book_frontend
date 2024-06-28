@@ -66,7 +66,7 @@ function Header2() {
         </div>
         <div
           ref={ref1}
-          className="absolute hidden shadow-2xl bg-white z-30 text-left top-[4.7rem] left-0 text-sm font-semibold font-[Mona sans]
+          className="absolute hidden shadow-2xl bg-white z-30 text-left top-[4.4rem] left-0 text-sm font-semibold font-[Mona sans]
     border-t-[0.25px] border-gray-400 w-full space-y-5 p-7 flex flex-col"
         >
           <NavLink to="/">Home</NavLink>
