@@ -6,7 +6,7 @@ function Content() {
     <div className="w-full space-y-[2rem]">
       <Flipboard />
       <Setupbars foodname="Recent_Dishes" />
-      {/* <Setupbars foodname="Specials" /> */}
+      <Setupbars foodname="Specials" />
     </div>
   );
 }
