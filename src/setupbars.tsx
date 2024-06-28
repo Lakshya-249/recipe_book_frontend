@@ -98,6 +98,7 @@ function Setupbars({ foodname }: { foodname: string }) {
                   {value.title}
                 </div>
               </motion.div>
+              <p>{value.title}</p>
             </div>
           ))}
         </div>
