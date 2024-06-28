@@ -85,7 +85,7 @@ function Setupbars({ foodname }: { foodname: string }) {
                 initial={{ opacity: 0, x: -50 }}
                 animate={{ opacity: 1, x: 0 }}
                 transition={{ delay: i * 0.2 }}
-                className="relative z-10 w-[19rem]  hover:cursor-pointer text-center text-5xl origin-left 
+                className="relative z-10 w-[18rem]  hover:cursor-pointer text-center text-5xl origin-left 
                 h-full rounded-2xl mb-4 mr-4 bg-gray-200 font-black text-gray-400 text-opacity-55"
                 whileHover={{ width: "30rem" }}
               >
